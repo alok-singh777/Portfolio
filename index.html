@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alok Singh | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="assets/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Front End Developer</p>
+                <h1>Hi, I'm <span>Alok Singh</span><br>From India</h1>
+            </div>
+        </div>
+    </div>
+
+        <!------------- about ------------------>
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="assets/user2.jpg" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Hi, I’m Alok Singh. I’m a Front-End Developer who believes in learning by doing. From building websites to experimenting with games, I enjoy the challenge of turning ideas into engaging web experiences. I’m always exploring better ways to build and grow as a developer.
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Front-End Development</span><br>HTML5, CSS3 (Flexbox, Grid), JavaScript (ES6+, DOM, Events)</li>
+                                <li><span>Responsive Design</span><br>Mobile-first layout, Cross-browser compatibility</li>
+                                <li><span>Version Control & Deployment</span><br>Git, GitHub, Netlify</li>
+                                <li><span>Tools</span><br>VS Code, Chrome DevTools</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2025 - Present</span><br>Front-End Development using HTML5, CSS3, and JavaScript (ES6+)</li>
+                                <li><span>Tools</span><br>Proficient with developer environments like VS Code and Chrome DevTools for inspecting, debugging, and optimizing front-end code</li>
+                                <li><span>Projects</span><br>Created portfolio sites, landing pages, and interactive web apps</li>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2025 - Present</span><br>B.Tech in Computer Science, Modern Institute of Technology & Management (MITM)</li>
+                                <li><span>2019 - 2023</span><br>Diploma in Civil, Aryan Institute of Engineering and Technology (AIET)</li>
+                                <li><span>2016</span><br>10th, Dhobei Sahoo High School (BSE)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!------------------ services----------------------->
+
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Dev</h2>
+                        <p>I build clean and modern websites using HTML, CSS, and JavaScript — fully optimized and SEO-friendly.
+From personal portfolios to business sites, I deliver smooth and fast performance. Code is well-structured, scalable, and easy to maintain.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-arrows-up-down-left-right"></i>
+                        <h2>Responsive Design</h2>
+                        <p>I build mobile-friendly layouts that work well on different screen sizes, including phones, tablets, and desktops.
+                             I focus on creating responsive designs for a better user experience. I test layouts to make sure they look good and function properly.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-wrench"></i>
+                        <h2>UI Fixes</h2>
+                        <p>I make small UI improvements like fixing broken layouts, adjusting spacing, and polishing the look of websites for better user experience. 
+                            I fix layout and design issues to keep websites clean and responsive. I ensure consistent and user-friendly design across all pages.
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--- ---------portfolio ------------ -->
+
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title work">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="assets/restaurant-menu.jpg">
+                        <div class="layer">
+                            <h3>Restaurant Menu</h3>
+                            <p>The app connects you the talented people around the world.
+                                Download it from google play store.</p>
+                                <a href="https://alok-singh777.github.io/Restaurant-Menu/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="assets/gym-website.jpg">
+                        <div class="layer">
+                            <h3>Gym Fit Physique</h3>
+                            <p>The app connects you the talented people around the world.
+                                Download it from google play store.</p>
+                                <a href="https://alok-singh777.github.io/Gym-FitPhysique/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="assets/tic tac toe.jpg"> 
+                        <div class="layer">
+                            <h3>Tic Tac Toe</h3>
+                            <p>The app connects you the talented people around the world.
+                                Download it from google play store.</p>
+                                <a href="https://alok-singh777.github.io/Tic-Tac-Toe-Game/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <!-- --------------contact------------------>
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fas fa-paper-plane"></i>aloksinghwebd@gmail.com</p>
+                        <p><i class="fas fa-phone-square-alt"></i>+91 80182 93094</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/alok.singh.747542"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://x.com/AlokSinghdevd?t=Ypg4exTn9__WpJX6vflaKg&s=08"><i class="fa-brands fa-twitter-square"></i></a>
+                            <a href="https://www.instagram.com/alokcoder?igsh=dHh1dDN6YnV4amJw"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/alok-singh-ab8376378?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/alok-singh777"><i class="fa-brands fa-github"></i></a>
+
+                        </div>
+                        <a href="assets/CV.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2025 Alok Singh. All rights reserved.</p>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+</body>
+</html>
